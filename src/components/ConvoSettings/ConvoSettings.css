@@ -1,0 +1,95 @@
+.settings-content {
+    width: 100%;
+    height: 100%;
+}
+
+.settings-content .settings-top {
+    width: 100%;
+    height: 33vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.settings-top img {
+    width: 23%;
+    border-radius: 100%;
+}
+
+.settings-top h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+    font-size: 18px;
+    color: #555555;
+}
+
+.options-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.label p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    color: #555555;
+    margin-top: 3px;
+}
+
+.label .options {
+    background-color: #D8DADF;
+    width: 37px;
+    height: 5.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.options img {
+    width: 50%;
+}
+
+.options i {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.list-menu {
+    width: 100%;
+    height: 55.6vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.list-menu .chat {
+    width: 88%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.chat h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.chat img {
+    width: 10px;
+}

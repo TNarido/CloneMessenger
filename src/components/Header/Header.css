@@ -1,0 +1,137 @@
+.content {
+    width: 100%;
+    display: flex;
+    margin-top: 4px;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content img {
+    margin-left: 1%;
+    width: 3%;
+}
+
+.wrapper {
+    position: relative;
+    margin-left: 10px;
+    width: 320px;
+}
+
+.icon {
+    height: 1.5rem;
+    font-size: 16px;
+    padding: 4px;
+    position: absolute;
+    box-sizing: border-box;
+    top: 50%;
+    left: 6px;
+    transform: translateY(-50%);
+    opacity: 60%;
+}
+
+.input {
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 2.1rem;
+    border: none;
+    background-color: #ececec;
+    border-radius: 30px;
+    font-size: 15px;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.nav-list {
+    margin-left: 20px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon-container {
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.icon-container:hover {
+    background-color: #F2F2F2;
+}
+
+.nav-list img {
+    width: 29px;
+    height: 4vh;
+}
+
+.nav-list .users {
+    width: 20px;
+}
+
+.nav-list .groups {
+    border-radius: 100%;
+    width: 25px;
+    border: 1px solid #696969;
+}
+
+.other-nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 30%;
+    margin-right: 10px;
+}
+
+.nav-container .menu {
+    width: 15px;
+}
+
+.nav-container .bell {
+    width: 20px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-container .profile {
+    width: 41px;
+    border-radius: 50%
+}
+
+.arrow-container {
+    width: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.4vh;
+    margin-top: 25px;
+    margin-left: -10px;
+    border-radius: 50%;
+}
+
+.arrow-container img {
+    width: 70%;
+    background-color: #c5c5c5;
+    border-radius: 50%;
+}
+
+.nav-container {
+    background-color: #c5c5c5;
+    width: 40px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6vh;
+    border-radius: 50%;
+}

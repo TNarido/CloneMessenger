@@ -1,0 +1,242 @@
+.chat-content {
+    width: 100%;
+    height: 100%;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 13px;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+
+.top h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #050505;
+}
+
+.top .chat-menu {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-right: 25px;
+    gap: 10px;
+}
+
+.chat-menu .dot-container {
+    width: 14%;
+    background-color: #D8DADF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60%;
+    height: 5.3vh;
+}
+
+.chat-menu img {
+    width: 20px;
+}
+
+.chat-wrapper {
+    position: relative;
+    margin-left: 14px;
+    width: 325px;
+    margin-top: 15px;
+}
+
+.chat-icon {
+    height: 1.5rem;
+    font-size: 16px;
+    padding: 4px;
+    position: absolute;
+    box-sizing: border-box;
+    top: 50%;
+    left: 6px;
+    transform: translateY(-50%);
+    opacity: 60%;
+}
+
+.chat-input {
+    height: 35px;
+    box-sizing: border-box;
+    padding-left: 2.1rem;
+    border: none;
+    background-color: #ececec;
+    border-radius: 30px;
+    font-size: 15px;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.extra-menu {
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 14px;
+    gap: 5px;
+    margin-top: 8px;
+    height: 5.8vh;
+}
+
+.extra-menu .back {
+    width: 18%;
+    background-color: #e2f2ffa6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.extra-menu .back:hover {
+    background-color: #DFE9F2;
+}
+
+.extra-menu .back h3 {
+    font-weight: 500;
+    font-size: 15px;
+    color: #176DCB;
+}
+
+.extra-menu .back1 {
+    cursor: pointer;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.extra-menu .back1:hover {
+    background-color: #F2F2F2;
+}
+
+.extra-menu .back1 h3 {
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 8.8px;
+}
+
+.convo-container {
+    width: 100%;
+    margin-top: 10px;
+    overflow-y: auto;
+    max-height: 380px;
+    padding-right: 10px;
+}
+
+.convo-container .convo-image {
+    width: 96.7%;
+    height: 11vh;
+    margin-left: 11px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.convo-image:hover {
+    background-color: #EBF5FF;
+}
+
+.convo-container .convo-image1 {
+    width: 96.7%;
+    height: 11vh;
+    margin-left: 11px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #EBF5FF;
+    border-radius: 6px;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.convo-image1 img {
+    width: 55px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.convo-image img {
+    width: 55px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.convo-image .message-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.message-container .blue-circle {
+    background-color: #4545fc;
+    width: 11px;
+    border-radius: 50px;
+    height: 1.7vh;
+}
+
+.convo-message {
+    margin-left: 14px;
+}
+
+.convo-message .name {
+    font-weight: 500;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.convo-message1 {
+    margin-left: 14px;
+}
+
+.convo-message1 .name {
+    font-weight: 500;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.convo-message1 .message1 {
+    font-weight: 400;
+    font-size: 12.7px;
+    color: #5f5f5f;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.convo-message .message {
+    font-weight: 500;
+    font-size: 12.7px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.convo-message .message span {
+    color: #818181;
+    font-weight: 400;
+}
+
+.footer {
+    border-top: 1px solid #cfcfcf;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 100%;
+    gap: 5px;
+    padding-top: 16px;
+}
+
+.footer img {
+    width: 17px;
+}
+
+.footer h3 {
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: #202020;
+}
